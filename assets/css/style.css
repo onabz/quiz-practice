@@ -4,29 +4,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root {
-    --hue-neutral: 200;
-    --hue-wrong: 0;
-    --hue-correct: 145;
-  }
-
-#index-body {
-    background-color: rgb(126, 17, 39);
     font-family: 'Roboto Condensed', sans-serif; 
 }
 
+:root {
+    --hue-neutral: rgba(126, 17, 39, 1);
+    --hue-wrong: rgba(126, 17, 39, 0.3);
+    --hue-correct: rgba(36, 218, 39, 1);
+  }
+
+#index-body {
+    background-color: rgba(126, 17, 39, 1);
+    
+}
+
 #game-body {
-    --hue: var(--hue-neutral);
-    padding: 0;
-    margin: 0;
     display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
+    background-color: rgba(126, 17, 39, 1);
   }
 
 #start-container {
@@ -52,11 +50,11 @@ h1 {
 
   
 #game-body.correct {
-    --hue: var(--hue-correct);
+    background-color: rgba(36, 218, 39, 1);
 }
   
 #game-body.wrong {
-    --hue: var(--hue-wrong);
+    background-color: rgba(126, 17, 39, 0.3);
 }
   
 .container {
@@ -76,7 +74,7 @@ h1 {
   }
   
   .btn {
-    --hue: var(--hue-neutral);
+    color: rgba(126, 17, 39, 1);
     border: 1px solid hsl(var(--hue), 100%, 30%);
     background-color: hsl(var(--hue), 100%, 50%);
     border-radius: 5px;
@@ -90,12 +88,11 @@ h1 {
   }
   
   .btn.correct {
-    --hue: var(--hue-correct);
-    color: black;
+    background-color: rgba(36, 218, 39, 1);
   }
   
   .btn.wrong {
-    --hue: var(--hue-wrong);
+    background-color: rgba(126, 17, 39, 0.3);
   }
   
   .start-btn, .next-btn {
