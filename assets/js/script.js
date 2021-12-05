@@ -198,7 +198,7 @@ const questions = [
         ]
     },
     {
-        question: 'What do the 4 Rings in Audi&#039;s Logo represent?',
+        question: 'What do the 4 Rings in Audis Logo represent?',
         answers: [
             { option: 'Previously independent automobile manufacturers', correct: true },
             { option: 'States in which Audi makes the most sales', correct: false },
@@ -313,7 +313,7 @@ const questions = [
     {
         question: 'What kind of train was Stepney, a train on the Bluebell Railway notable for his appearance in The Railway Series',
         answers: [
-            { option: 'LB&amp;SCR A1X"', correct: true },
+            { option: 'LB&amp;SCR A1X', correct: true },
             { option: 'LB&amp;SCR E2', correct: false },
             { option: 'LB&amp;SCR J1', correct: false },
             { option: 'LB&amp;SCR D1', correct: false }                     
