@@ -8,7 +8,10 @@
 }
 
 #index-body {
-    background-color: rgba(112, 92, 255, 1);   
+    /* background-color: rgba(112, 92, 255, 1);    */
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/car-background.jpg);
 }
 
 #game-body {
@@ -30,13 +33,14 @@
 }
 
 h1 {
-    font-size: 70px;
-    color: white;
+    font-size: 90px;
+    color: rgb(8, 8, 10);
     /* margin-bottom: 3rem; */
 }
 
-#Start-play-btn {
+#play-btn {
     font-size: 170px;
+    text-decoration: none;
     color: red;
 }
   

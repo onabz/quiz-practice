@@ -39,6 +39,7 @@ function getQuestion(question) {
 }
 
 function resetState() {
+    bodyStatusRemove(document.body)
     nextButton.classList.add('vanish')
     while (answerItems.firstChild) {
       answerItems.removeChild(answerItems.firstChild)
@@ -104,7 +105,7 @@ const questions = [
     {
         question: 'Which of the following car models has been badge-engineered (rebadged) the most?',
         answers: [
-            { option: 'Izusu Trooper', correct: true },
+            { option: 'Isuzu Trooper', correct: true },
             { option: 'Holden Monaro', correct: false },
             { option: 'Suzuki Swift', correct: false },
             { option: 'Chevy Camaro', correct: false }                     
