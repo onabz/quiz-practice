@@ -91,6 +91,7 @@ h1 {
 }
   
 .btn:hover {
+    background: rgb(205, 36, 211);
     border-color: black;
 }
   
@@ -108,6 +109,10 @@ h1 {
     font-weight: bold;
     padding: 10px 20px;
 }
+
+.start-btn:hover, .next-btn:hover {
+    background: rgb(205, 36, 211);
+}
   
 .controls {
     display: flex;
@@ -118,3 +123,17 @@ h1 {
 .vanish {
     display: none;
 }
+
+/* #home-btn {
+    color: rgba(112, 92, 255, 1);
+    border: 1px solid #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 30px;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5%;
+    box-shadow: 0 0 10px 2px
+} */
